@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, div, h1, form, fieldset, input, textarea {
+	margin: 0; padding: 0; border: 0; outline: none;
+}
+
+html {
+	height: 100%;
+}
+
+body { padding:50px 100px; font:12px Verdana, Geneva, sans-serif;
+background-color: #E6EBF4;
+
+ }
+
+input, textarea {
+	padding: 8px;
+	border: solid 1px #E5E5E5;
+	font: normal 13px Verdana, Tahoma, sans-serif;
+	width: 200px;
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+}
+
+textarea {
+ width: 400px;
+ max-width: 400px;
+ height: 150px;
+ line-height: 150%;
+ }
+
+.form label {
+ margin-left: 10px;
+ color: #999999;
+ }
+
+input:hover,textarea:hover {
+ box-shadow: 0 0 1px #000;
+}
+
+#send_form{
+	color: #fef4e9;
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+}
+
+#send_form:hover {
+	background: #f47c20;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+
+}
+#send_form:active {
+	color: #fcd3a5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+	
+}
+
+#form-div {
+background-color:#F5F5F5;
+padding:15px;
+}
+
+#show_our_contact_form {
+margin:30px auto;
+width:450px;
+display: none;
+
+}
+
+.errormsg,label,#contact_us{
+	color: #f78d1d;
+}
+
+#fancybox-wrap {
+  margin: -70px 0 0 290px;
+}
+.fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 50px #222;
+}
